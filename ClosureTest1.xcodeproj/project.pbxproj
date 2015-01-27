@@ -13,6 +13,7 @@
 		8BF148E81A7794B200A58432 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF148E71A7794B200A58432 /* Images.xcassets */; };
 		8BF148EB1A7794B200A58432 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF148E91A7794B200A58432 /* LaunchScreen.xib */; };
 		8BF148F71A7794B200A58432 /* ClosureTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF148F61A7794B200A58432 /* ClosureTest1Tests.swift */; };
+		8BF149011A77973F00A58432 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF149001A77973F00A58432 /* ViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8BF148F01A7794B200A58432 /* ClosureTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosureTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF148F51A7794B200A58432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF148F61A7794B200A58432 /* ClosureTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTest1Tests.swift; sourceTree = "<group>"; };
+		8BF149001A77973F00A58432 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				8BF148E01A7794B200A58432 /* AppDelegate.swift */,
 				8BF148E21A7794B200A58432 /* ViewController.swift */,
+				8BF149001A77973F00A58432 /* ViewControllerExtension.swift */,
 				8BF148E41A7794B200A58432 /* Main.storyboard */,
 				8BF148E71A7794B200A58432 /* Images.xcassets */,
 				8BF148E91A7794B200A58432 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				8BF148E31A7794B200A58432 /* ViewController.swift in Sources */,
 				8BF148E11A7794B200A58432 /* AppDelegate.swift in Sources */,
+				8BF149011A77973F00A58432 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				8BF148FC1A7794B200A58432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BF148FD1A7794B200A58432 /* Build configuration list for PBXNativeTarget "ClosureTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				8BF148FF1A7794B200A58432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
